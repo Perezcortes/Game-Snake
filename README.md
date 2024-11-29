@@ -2,6 +2,8 @@
 
 Este proyecto es una implementación del clásico juego **Snake**, desarrollado utilizando **HTML**, **CSS** y **JavaScript**. Está diseñado para ser un proyecto simple pero interactivo, ideal para practicar y mejorar habilidades de desarrollo web.
 
+Si solo quieres ver su funcionalidad sin necesidad de descargar código entra: https://perezcortes.github.io/Game-Snake/
+
 ## Características 🎮
 
 - **Control del jugador**: Controla la serpiente con las teclas de dirección del teclado.
