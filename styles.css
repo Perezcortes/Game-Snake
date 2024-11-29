@@ -1,0 +1,109 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Opcional: Cambia el color de fondo del cuerpo */
+}
+
+#game-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #5ca8a8;
+    padding: 20px;
+    border: 2px solid #3f809a;
+    display: none; /* Asegúrate de que esto sea "block" para mostrar el mensaje */
+}
+
+#scoreMessage {
+    font-size: 18px;
+}
+
+#restartButton {
+    margin-top: 20px;
+}
+
+#gameContainer {
+    border: 4px solid rgb(26, 59, 90); /* Cambiamos el color del borde */
+    text-align: center;
+    position: relative;
+    display: flex; /* Utilizamos flexbox para alinear elementos */
+    justify-content: space-between; /* Espaciado entre elementos */
+    align-items: center; /* Centramos verticalmente */
+    width: 608px; /* Establecemos un ancho fijo para el contenedor */
+}
+
+#gameCanvas {
+    display: block;
+}
+
+#scoreContainer {
+    position: absolute;
+    top: 30px; /* Ajustamos la posición en la parte superior de la pantalla */
+    right: 30px; /* Ajustamos la posición en la esquina superior derecha */
+}
+
+.score, .lives {
+    font-size: 24px;
+    color: rgb(69, 168, 249); /* Cambiamos el color del texto */
+    display: block;
+}
+
+.score {
+    margin-top: 10px;
+}
+
+.lives {
+    margin-top: 10px;
+}
+
+#startButton {
+    background-color: #1e9f5c; /* Color de fondo predeterminado del botón */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Agregamos una transición suave al color de fondo */
+    margin-bottom: 20px; /* Añadimos margen inferior para separar el botón del cuadro de juego */
+}
+
+#startButton:hover {
+    background-color: #45cd90; /* Color de fondo cuando el cursor pasa sobre el botón */
+}
+
+#pauseButton {
+    background-color: #b360eb;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Agregamos una transición suave al color de fondo */
+    margin-left: 20px; /* Añadimos margen inferior para separar el botón del cuadro de juego */
+}
+
+#pauseButton:hover {
+    background-color: #ba95d2;
+}
+
+#stopButton {
+    background-color: #b360eb;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Agregamos una transición suave al color de fondo */
+    margin-left: 20px; /* Añadimos margen inferior para separar el botón del cuadro de juego */
+}
+
+#stopButton:hover {
+    background-color: #ba95d2;
+}
